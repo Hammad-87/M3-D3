@@ -145,7 +145,7 @@
           This page will dynamically load pictures from the web, and display them in a cool way!
         </p>
         <p>
-          <a href="#" class="btn btn-primary my-2">Load Images</a>
+          <a href="#" class="btn btn-primary my-2" onclick="load()">Load Images</a>
           <a href="#" class="btn btn-secondary my-2">Load Secondary Images</a>
         </p>
       </div>
@@ -175,7 +175,7 @@
                     <button type="button" class="btn btn-sm btn-outline-secondary">
                       View
                     </button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary remove">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">
                       Edit
                     </button>
                   </div>
@@ -205,7 +205,7 @@
                     <button type="button" class="btn btn-sm btn-outline-secondary">
                       View
                     </button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary remove">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">
                       Edit
                     </button>
                   </div>
@@ -235,98 +235,7 @@
                     <button type="button" class="btn btn-sm btn-outline-secondary">
                       View
                     </button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary remove">
-                      Edit
-                    </button>
-                  </div>
-                  <small class="text-muted">9 mins</small>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
-                preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c" />
-                <text x="50%" y="50%" fill="#eceeef" dy=".3em">
-                  Thumbnail
-                </text>
-              </svg>
-              <div class="card-body">
-                <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
                     <button type="button" class="btn btn-sm btn-outline-secondary">
-                      View
-                    </button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary remove">
-                      Edit
-                    </button>
-                  </div>
-                  <small class="text-muted">9 mins</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
-                preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c" />
-                <text x="50%" y="50%" fill="#eceeef" dy=".3em">
-                  Thumbnail
-                </text>
-              </svg>
-              <div class="card-body">
-                <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">
-                      View
-                    </button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary remove">
-                      Edit
-                    </button>
-                  </div>
-                  <small class="text-muted">9 mins</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
-                preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c" />
-                <text x="50%" y="50%" fill="#eceeef" dy=".3em">
-                  Thumbnail
-                </text>
-              </svg>
-              <div class="card-body">
-                <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">
-                      View
-                    </button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary remove">
                       Edit
                     </button>
                   </div>
@@ -357,7 +266,7 @@
                     <button type="button" class="btn btn-sm btn-outline-secondary">
                       View
                     </button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary remove">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">
                       Edit
                     </button>
                   </div>
@@ -387,7 +296,7 @@
                     <button type="button" class="btn btn-sm btn-outline-secondary">
                       View
                     </button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary remove">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">
                       Edit
                     </button>
                   </div>
@@ -417,7 +326,98 @@
                     <button type="button" class="btn btn-sm btn-outline-secondary">
                       View
                     </button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary remove">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                      Edit
+                    </button>
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+                preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c" />
+                <text x="50%" y="50%" fill="#eceeef" dy=".3em">
+                  Thumbnail
+                </text>
+              </svg>
+              <div class="card-body">
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                      View
+                    </button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                      Edit
+                    </button>
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+                preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c" />
+                <text x="50%" y="50%" fill="#eceeef" dy=".3em">
+                  Thumbnail
+                </text>
+              </svg>
+              <div class="card-body">
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                      View
+                    </button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                      Edit
+                    </button>
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+                preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c" />
+                <text x="50%" y="50%" fill="#eceeef" dy=".3em">
+                  Thumbnail
+                </text>
+              </svg>
+              <div class="card-body">
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                      View
+                    </button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">
                       Edit
                     </button>
                   </div>
@@ -430,6 +430,9 @@
       </div>
     </div>
   </main>
+  <ul id="myStuff">
+
+  </ul>
 
   <footer class="text-muted">
     <div class="container">
@@ -442,6 +445,84 @@
       </p>
     </div>
   </footer>
+
+<script>
+  /* 1) When pressing on Load Images button, load the pictures from http://www.splashbase.co/api/v1/images/search?query=your query */
+
+  /* http://zetcode.com/javascript/jsonurl/ */
+
+  function load(){
+
+  fetch('http://www.splashbase.co/api/v1/images/search?query=car')
+    .then(res => res.json())
+    /* .then((out) => {
+        console.log('Output: ', out);
+    }) */
+
+    /* .then((apiResponse) => console.log(apiResponse.images)) */
+   
+   
+    .then(apiResponse => {
+      
+        let svg = document.querySelectorAll(".col-md-4 .card")
+        for (let i = 0; i < svg.length; i++) {
+      var el = svg[i];
+      el.parentNode.removeChild(el);
+      
+   }
+   let container = document.querySelector(".col-md-4")
+   let newRow = document.createElement("div")
+   newRow.classList.add("card")
+   newRow.classList.add("mb-4")
+   newRow.classList.add("shadow-sm")
+
+      /* newRow.classList.add("mb-4")
+   newRow.classList.add("shadow-sm") */
+   
+
+   let imags = apiResponse.images;
+        for (let j = 0; j < imags.length; j++) {
+          let img = imags[j];
+          newRow.innerHTML +=    
+   `
+            
+            <img class="card-img-top" src= "${img.url}" width="100%" height="225">
+              <div class="card-body">
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                      View
+                    </button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                      Edit
+                    </button>
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            `      
+   }
+   container.appendChild(newRow)
+
+   
+    })
+ 
+
+
+
+.catch(err => console.error(err));
+
+}
+
+
+  
+</script>
+
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
   </script>
@@ -450,60 +531,6 @@
   </script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-  </script>
-
-  <script>      
-  
-      const imageBtn = document.querySelector('.btn-primary')
-        
-      imageBtn.addEventListener('click', getImage);
-
-      function getImage() {
-        document.querySelector('.album .container .row').innerHTML = ''
-        const url = 'http://www.splashbase.co/api/v1/images/search?query=animal'
-        fetch(url)
-            .then(res => res.json())
-            .then(data => {
-                //console.log(data.images)
-
-                for (let index = 0; index < data.images.length; index++) {
-                    const element = data.images[index];
-
-                    let content = document.createElement('div')
-                    content.className = 'col-md-4'
-
-                    content.innerHTML =
-                    `<div class="card mb-4 shadow-sm">
-                        <img class="bd-placeholder-img card-img-top" width="100%" height="225" src=${element.url} />
-                        <div class="card-body">
-                            <p class="card-text">
-                            This is a wider card with supporting text below as a natural
-                            lead-in to additional content. This content is a little bit
-                            longer.
-                            </p>
-                            <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <button type="button" class="btn btn-sm btn-outline-secondary">
-                                View
-                                </button>
-                                <button type="button" class="btn btn-sm btn-outline-secondary remove">
-                                Edit
-                                </button>
-                            </div>
-                            <small class="text-muted">9 mins</small>
-                            </div>
-                        </div>
-                    </div>`
-                    
-                    document.querySelector('.album .container .row').appendChild(content)
-                }
-
-            }).catch(err => {
-            console.error('Error: ', err);
-        });
-      }
-
-
   </script>
 </body>
 
